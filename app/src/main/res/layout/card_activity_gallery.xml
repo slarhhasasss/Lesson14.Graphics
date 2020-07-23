@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearLayoutCardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_margin="10dp"
+    android:elevation="25dp"
+    android:orientation="vertical"
+    android:background="#E4D8F4">
+
+
+    <ImageView
+        android:id="@+id/imageViewCardActGallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+    <TextView
+        android:id="@+id/textViewNameActGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:textSize="24sp"
+        android:textColor="#444444"
+        android:layout_gravity="center"
+        android:text="NameOfPicture"/>
+
+    <TextView
+        android:id="@+id/textViewTimeActGallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:textSize="15sp"
+        android:text="time"/>
+
+</LinearLayout>
